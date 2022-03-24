@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+#logging:
+#  level:
+#    org.springframework.web: debug
+#
+#spring:
+#  mvc:
+#    log-request-details: true
