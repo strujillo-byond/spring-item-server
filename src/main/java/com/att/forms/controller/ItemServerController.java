@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ItemServerController {
 
-    @PostMapping(value = "/datosPersonales", consumes = {MediaType.APPLICATION_JSON_VALUE})
+    @PostMapping(value = "/itemServer", consumes = {MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<ItemServer> postDatosPersonales(@RequestBody ItemServer itemServer){
         log.info("============>{}", itemServer);
         return ResponseEntity.ok(itemServer);

@@ -9,8 +9,8 @@ import lombok.*;
 @ToString
 public class Data {
     private String idTemplate;
-    private String key;
     private Long idItemServer;
+    private String key;
     private String flavor;
     private String name;
     private String description;
