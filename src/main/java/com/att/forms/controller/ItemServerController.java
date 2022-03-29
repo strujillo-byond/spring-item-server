@@ -14,6 +14,7 @@ public class ItemServerController {
 
     @PostMapping(value = "/itemServer", consumes = {MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<ItemServer> postDatosPersonales(@RequestBody ItemServer itemServer){
+        log.info("Request de form.io");
         log.info("{}", itemServer);
         return ResponseEntity.ok(itemServer);
     }
